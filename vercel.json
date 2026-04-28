@@ -1,0 +1,8 @@
+{
+  "version": 85,
+  "name": "percel",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
+}
