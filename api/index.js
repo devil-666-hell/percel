@@ -2,7 +2,6 @@ export const config = { runtime: "edge" };
 
 const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
 const XHTTP_PATH = "/api/v1/updates";
-const SECRET_AUTH_KEY = "your-secret-key-here";
 
 const ERR_MISCONFIGURED = new Response("Configuration Error", { status: 500 });
 const ERR_BAD_GATEWAY = new Response("Gateway Error", { status: 502 });
